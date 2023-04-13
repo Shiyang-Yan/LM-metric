@@ -1,4 +1,4 @@
-# Deep Metric Learning Research in PyTorch
+# lm-metric: learned pair weighting and contextual memory for deep metric learning
 
 ---
 ## What can I find here?
