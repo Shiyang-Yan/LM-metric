@@ -8,9 +8,9 @@ This repository contains all code and implementations used in:
 ```
 lm-metric: learned pair weighting and contextual memory for deep metric learning
 ```
-1. optimal pair weighting and inter-sample relationship. Introduce a parametric pairwise weighting scheme via policy gradient optimization and model the batch-wise inter-sample relationship via a Gated Recurrent Unit (GRU). 
+1. Optimal pair weighting and inter-sample relationship. Introduce a parametric pairwise weighting scheme via policy gradient optimization and model the batch-wise inter-sample relationship via a Gated Recurrent Unit (GRU). 
 
-2. We propose a conditional Normalizing Flow-based contextual memory feature block to learn a compact single embedding for each image containing the contextual information during retrieval.
+2. Propose a conditional Normalizing Flow-based contextual memory feature block to learn a compact single embedding for each image containing the contextual information during retrieval.
 
 3. Significant improvements have been achieved in large-scale image retrieval benchmark datasets. 
 
