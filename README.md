@@ -9,6 +9,8 @@ This repository contains all code and implementations used in:
 lm-metric: learned pair weighting and contextual memory for deep metric learning
 ```
 
+``Abstract: In many real-world applications involving sample alignment and matching, such as classical image retrieval, it is challenging to optimize a ranking-based metric, e.g., average precision (AP), as it involves a discrete ranking function that is not only non-differentiable but also non-decomposable. “Non-differentiable” means that AP is not trainable via backpropagation. “Non-decomposable” means that AP is not linearly composable via the linear combination of batches for a dataset. In this study, we approach this problem from two novel perspectives: optimal pair weighting and inter-sample relationship. First, we introduce a parametric pairwise weighting scheme via policy gradient optimization and model the batch-wise inter-sample relationship via a Gated Recurrent Unit (GRU). We propose a conditional Normalizing Flow-based contextual memory feature block to learn a compact single embedding for each image containing the contextual information during retrieval. Our method is comprehensively evaluated, and significant improvements have been achieved in large-scale image retrieval benchmark datasets. We call our method LM-Metric (Learned Pair Weighting and Contextual Memory for Deep Metric Learning). '' 
+
 **Link**: https://www.techrxiv.org/articles/preprint/LM-Metric_Learned_Pair_Weighting_and_Contextual_Memory_for_Deep_Metric_Learning/22361128/1/files/39799525.pdf
 
 The code is based on ``https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch''.
