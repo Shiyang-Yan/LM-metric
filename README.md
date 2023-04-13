@@ -29,12 +29,17 @@ Datasets:
 Data for
 
 CUB200-2011 (http://www.vision.caltech.edu/visipedia/CUB-200.html)
+
 CARS196 (https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+
 Stanford Online Products (http://cvgl.stanford.edu/projects/lifted_struct/)
+
 can be downloaded either from the respective project sites or directly via Dropbox:
 
 CUB200-2011 (1.08 GB): https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
+
 CARS196 (1.86 GB): https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
+
 SOP (2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
 
 The latter ensures that the folder structure is already consistent with this pipeline and the dataloaders.
